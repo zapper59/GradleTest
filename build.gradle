@@ -1,0 +1,7 @@
+apply plugin: "application"
+
+mainClassName = "GradleTest"
+
+dependencies{
+	runtime files("libs-1")
+}
